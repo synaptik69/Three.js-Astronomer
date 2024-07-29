@@ -1,0 +1,91 @@
+.panelThree {
+  width: 50%;
+  height: 100vh;
+  text-align: center;
+  left: 35%;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  p {
+    font-family: bookFont;
+    letter-spacing: 2.5px;
+    color: #ebe1d8;
+    font-size: 27px;
+  }
+
+  h4 {
+    font-family: futuraBold;
+    letter-spacing: 2.5px;
+    color: #ebe1d8;
+    font-size: 27px;
+    margin-top: 2rem;
+  }
+
+  .options {
+    display: flex;
+    align-items: center;
+    margin-top: 8rem;
+    flex-direction: column;
+  }
+
+  button {
+    border: solid #98d5f4;
+    border-radius: 50%;
+    color: #98d5f4;
+    background-color: transparent;
+    padding: 35px 60px;
+    font-size: 24px;
+    font-family: bookFont;
+    transition: ease-in 0.2s;
+  }
+
+  .option2 {
+    padding: 50px 60px;
+    margin-top: 2rem;
+  }
+
+  button:hover {
+    color: black;
+    background-color: #98d5f4;
+    cursor: pointer;
+  }
+}
+
+
+@media (min-width: 300px) and (max-width: 850px) {
+  .panelThree {
+    width: 100%;
+    left: 0%;
+    align-items: start;
+    p {
+      font-size: 12px !important;
+    }
+    h4 {
+      font-size: 15px !important;
+      margin-bottom: -6rem;
+    }
+
+    button {
+      padding: 25px 50px !important;
+      font-size: 15px !important;
+    }
+    button:nth-child(2) {
+      margin-top: 1rem !important;
+    }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 750px) {
+  .safari {
+    .panelThree {
+      width: 100vh;
+      scale: 1.1;
+      .textContainer {
+        width: 50%;
+        margin-left: 15%;
+        margin-top: 0rem;
+      }
+    }
+  }
+}

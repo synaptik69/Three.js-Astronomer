@@ -1,0 +1,165 @@
+.question_loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #1a1a1a;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  // padding: 50px;
+
+  .content_loader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .loader_quote {
+    margin: 60px;
+    text-align: center;
+  }
+
+  .loader_btn {
+    display: block;
+    position: relative;
+    background: none;
+    border: none;
+    outline: none;
+    min-width: 200px;
+    cursor: pointer;
+    letter-spacing: 0.35em;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid hsla(0, 0%, 100%, 0.2);
+    transition: all 0.2s ease;
+    margin-top: 50px;
+    padding: 10px 20px !important;
+    background: rgb(82, 82, 82);
+    color: white;
+
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 8px 0;
+      width: 100%;
+      -webkit-clip: rect(0px, 0px, 0px, 0px);
+      clip: rect(0px, 0px, 0px, 0px);
+      background: #fff;
+      color: #000;
+    }
+
+    &:before {
+      left: -3px;
+      top: -2px;
+      text-shadow: 2px 0 #fff;
+      box-shadow: 2px 0 #fff;
+      animation: glitch-test 1.5s infinite linear alternate-reverse;
+    }
+
+    &:after {
+      left: 2px;
+      bottom: -2px;
+      text-shadow: -1px 0 #fff;
+      box-shadow: -1px 0 #fff;
+      animation: glitch-test 2s infinite linear alternate;
+    }
+
+    // &:hover {
+    //   background: white;
+    //   color: black;
+    // }
+
+    // &:hover:before {
+    //     animation: glitch-test 1.5s infinite linear alternate-reverse;
+    // }
+
+    // &:hover:after {
+    //     animation: glitch-test 2s infinite linear alternate;
+    // }
+  }
+
+  .loading_done {
+    background-color: white !important;
+    color: black !important;
+  }
+}
+
+.hide_loading {
+  background-color: #1a1a1a;
+  animation: hideLoading 1.5s linear 1.5s forwards;
+}
+
+@keyframes glitch-test {
+  0% {
+    clip: rect(-3px, 600px, 0px, 0px);
+  }
+  5.88235% {
+    clip: rect(0px, 600px, 0px, 0px);
+  }
+  11.76471% {
+    clip: rect(-3px, 600px, 0px, 0px);
+  }
+  17.64706% {
+    clip: rect(-3px, 600px, 0px, 0px);
+  }
+  23.52941% {
+    clip: rect(100px, 600px, 100px, 0px);
+  }
+  29.41176% {
+    clip: rect(0px, 600px, 600px, 0px);
+  }
+  35.29412% {
+    clip: rect(100px, 600px, 0px, 0px);
+  }
+  41.17647% {
+    clip: rect(0px, 600px, 600px, 0px);
+  }
+  47.05882% {
+    clip: rect(100px, 600px, 0px, 0px);
+  }
+  52.94118% {
+    clip: rect(-3px, 600px, 0px, 0px);
+  }
+  58.82353% {
+    clip: rect(100px, 450px, 100px, 0px);
+  }
+  64.70588% {
+    clip: rect(0px, 450px, 0px, 0px);
+  }
+  70.58824% {
+    clip: rect(100px, 450px, 100px, 0px);
+  }
+  76.47059% {
+    clip: rect(0px, 450px, 0px, 0px);
+  }
+  82.35294% {
+    clip: rect(0px, 450px, 0px, 0px);
+  }
+  88.23529% {
+    clip: rect(0px, 450px, 0px, 0px);
+  }
+  94.11765% {
+    clip: rect(0px, 450px, 0px, 0px);
+  }
+  100% {
+    clip: rect(0px, 450px, 0px, 0px);
+  }
+}
+
+@keyframes hideLoading {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    display: none;
+    z-index: -10;
+  }
+}

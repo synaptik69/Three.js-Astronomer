@@ -1,0 +1,760 @@
+.panelFour {
+  width: 40%;
+  height: 100vh;
+  text-align: center;
+  left: 45%;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  
+  p {
+    font-family: bookFont;
+    letter-spacing: 2.5px;
+    color: #061c3f;
+    font-size: 27px;
+  }
+
+  h4 {
+    font-family: futuraBold;
+    letter-spacing: 2.5px;
+    color: #061c3f;
+    font-size: 27px;
+    margin-top: 0rem;
+  }
+
+  .options {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  button {
+    border: solid #061c3f;
+    border-radius: 50%;
+    color: #061c3f;
+    background-color: transparent;
+    padding: 45px 60px;
+    font-size: 24px;
+    font-family: bookFont;
+    transition: ease-in 0.2s;
+  }
+
+  .option2 {
+    padding: 65px 110px;
+    margin-top: 2rem;
+  }
+
+  button:hover {
+    color: #ede3ce;
+    background-color: #061c3f;
+    cursor: pointer;
+  }
+}
+
+
+
+@media (min-width: 980px) and (max-width: 1280px) {
+  .panelFour {
+    .option2 {
+      padding: 45px 80px !important;
+    }
+  }
+}
+
+@media (min-width: 900px) and (max-width: 980px) {
+  .panelFour {
+    width: 60%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 850px) {
+  .panelFour {
+    width: 100%;
+    left: 5%;
+    margin-top: 0;
+    width: 90%;
+
+    p {
+      font-size: 17px !important;
+      margin-top: -30rem;
+    }
+
+    h4 {
+      font-size: 19px !important;
+    }
+
+    .options {
+      margin-top: 1rem !important;
+    }
+
+    .option2 {
+      margin-top: 2rem !important;
+    }
+
+    button {
+      padding: 30px 70px !important;
+      font-size: 19px !important;
+    }
+  }
+}
+
+@media (width: 360px) {
+  .panelFour {
+    p {
+      margin-top: -39rem;
+    }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 750px) {
+  .safari .panelFour {
+    width: 100vh;
+
+    .textContainer {
+      width: 60%;
+      margin-left: 8%;
+      margin-top: 13rem;
+    }
+  }
+}
+
+.QuestionFive {
+  height: 100vh;
+  text-align: center;
+  left: 40%;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  .textContainer{
+    transform: translateY(-18%);
+  }
+
+  .descriptionText {
+    font-family: bookFont;
+    letter-spacing: 2.5px;
+    color: #ebe1d8;
+    font-size: 27px;
+  }
+  
+  h4 {
+    font-family: futuraBold;
+    letter-spacing: 2.5px;
+    color: #ebe1d8;
+    font-size: 27px;
+    margin-top: 2rem;
+  }
+
+  .options {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    flex-direction: column;
+  }
+
+  button {
+    border: solid #98d5f4;
+    border-radius: 50%;
+    color: #98d5f4;
+    background-color: transparent;
+    padding: 45px 60px;
+    font-size: 24px;
+    font-family: bookFont;
+    transition: ease-in 0.2s;
+  }
+
+  .option2 {
+    padding: 50px 60px;
+    margin-top: 2rem;
+  }
+
+  button:hover {
+    color: black;
+    background-color: #98d5f4;
+    cursor: pointer;
+  }
+}
+
+
+@media (min-width: 1367px) and (max-width: 1400px) {
+  .QuestionFive {
+    left: 35%;
+  }
+}
+@media (min-width: 1950px) and (max-width: 4000px) {
+  .QuestionFive {
+    .textContainer{
+      transform: translate(-22%, -18%);
+    }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 850px) {
+  .QuestionFive {
+    width: 100%;
+    left: 5%;
+    margin-top: 0;
+
+    .textContainer{
+      transform: translateY(-18%);
+    }
+    
+    p {
+      font-size: 17px !important;
+      margin-top: -30rem;
+    }
+
+    .options {
+      margin-top: 2rem !important;
+    }
+
+    button {
+      padding: 30px 70px !important;
+      font-size: 19px !important;
+    }
+
+    .option2 {
+      margin-top: 5rem !important;
+    }
+  }
+}
+
+@media (min-height: 900px) and (max-height: 925px) {
+  .QuestionFive {
+    width: 100%;
+    left: 5%;
+    top: 10% !important;
+    margin-top: 0rem;
+
+    .options {
+      margin-top: 5rem !important;
+    }
+
+    button {
+      padding: 30px 70px !important;
+      font-size: 19px !important;
+    }
+
+    .option2 {
+      margin-top: 5rem !important;
+    }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 750px) {
+  .safari .QuestionFive {
+    width: 100vh;
+
+    .textContainer {
+      width: 50%;
+      margin-left: 12%;
+      margin-top: 15em;
+    }
+  }
+}
+
+.QuestionSix {
+  height: 100vh;
+  text-align: center;
+  left: 0%;
+  position: relative;
+  display: flex !important;
+  align-items: center;
+  transform: translateX(-35%);
+
+  p {
+    font-family: bookFont;
+    letter-spacing: 2.5px;
+    color: #ebe1d8;
+    font-size: 27px;
+  }
+
+  .descriptionText {
+    font-family: bookFont;
+    color: #ebe1d8;
+    font-size: 20px;
+  }
+
+  h4 {
+    font-family: futuraBold;
+    letter-spacing: 2.5px;
+    color: #ebe1d8;
+    font-size: 27px;
+    margin-top: 2rem;
+  }
+
+  .options {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    flex-direction: column;
+  }
+
+  button {
+    border: solid #98d5f4;
+    border-radius: 50%;
+    color: #98d5f4;
+    background-color: transparent;
+    padding: 45px 60px;
+    font-size: 24px;
+    font-family: bookFont;
+    transition: ease-in 0.2s;
+  }
+
+  .option2 {
+    padding: 50px 60px;
+    margin-top: 2rem;
+  }
+
+  button:hover {
+    color: black;
+    background-color: #98d5f4;
+    cursor: pointer;
+  }
+}
+
+// @media (min-width: 1367px) and (max-width: 1400px) {
+//   .QuestionSix {
+//     .textContainer {
+//       margin-top: 12em;
+//     }
+//   }
+// }
+
+// @media (min-width: 1401px) and (max-width: 1450px) {
+//   .QuestionSix {
+//     .textContainer {
+//       margin-top: 34em !important;
+//     }
+//   }
+// }
+
+// @media (min-width: 900px) and (max-width: 980px) {
+//   .QuestionSix {
+//     .textContainer {
+//       margin-top: -9rem;
+//     }
+//   }
+// }
+
+@media (min-width: 300px) and (max-width: 850px) {
+  .QuestionSix {
+    transform: translateX(-12%);
+    
+    .textContainer {
+      width: 80%;
+    }
+
+    p {
+      font-size: 17px !important;
+      margin-top: -30rem;
+    }
+
+    h4 {
+      font-size: 19px !important;
+    }
+
+    .options {
+      margin-top: 3rem !important;
+      gap:15rem;
+    }
+
+    .option2 {
+      padding: 30px 30px !important;
+    }
+
+    button {
+      padding: 20px 40px !important;
+      font-size: 19px !important;
+    }
+  }
+}
+
+@media (min-height: 900px) and (max-height: 925px) {
+  .QuestionSix {
+    left: 0%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 750px) {
+  .safari .QuestionSix {
+    width: 100vh;
+
+    .textContainer {
+      width: 40%;
+      margin-left: 17%;
+      margin-top: 19em;
+    }
+  }
+}
+
+.QuestionSeven {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  left: 0%;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  .textContainer {
+    transform: translateY(-70%);
+  }
+
+  h4 {
+    font-family: futuraBold;
+    letter-spacing: 2.5px;
+    color: #ebe1d8;
+    font-size: 27px;
+  }
+
+  p {
+    font-family: bookFont;
+    letter-spacing: 2.5px;
+    color: #ebe1d8;
+    font-size: 27px;
+  }
+
+  .options {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  button {
+    border: solid #98d5f4;
+    border-radius: 50%;
+    color: #98d5f4;
+    background-color: transparent;
+    padding: 45px 60px;
+    font-size: 24px;
+    font-family: bookFont;
+    transition: ease-in 0.2s;
+  }
+
+  .option2 {
+    padding: 50px 60px;
+    margin-left: 17rem;
+  }
+
+  button:hover {
+    color: black;
+    background-color: #98d5f4;
+    cursor: pointer;
+  }
+}
+
+.safari {
+  .QuestionSeven {
+    p {
+      margin-right: 10%;
+    }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 750px) {
+  .safari .QuestionSeven {
+    width: 100vh;
+
+    .textContainer {
+      margin-right: 15%;
+      margin-top: 12em;
+    }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 850px) {
+  .QuestionSeven {
+    margin-top: 2rem !important;
+
+    .textContainer {
+      transform: translateY(-55%);
+    }
+  
+    p {
+      margin-top: -28rem !important;
+    }
+
+    .options {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .option2 {
+      margin-top: 2rem !important;
+      margin-left: 0 !important;
+    }
+
+    button {
+      padding: 40px 55px !important;
+      font-size: 19px !important;
+    }
+  }
+}
+
+@media (min-width: 900px) and (max-width: 980px) {
+  .QuestionEight {
+    .textContainer {
+      margin-top: -9rem !important;
+    }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 850px) {
+
+  .safari .QuestionEight {
+    width: 100vh;
+
+    .textContainer {
+      width: 50%;
+      margin-left: 15%;
+      margin-top: 5em !important;
+    }
+  }
+}
+
+.QuestionEight {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  left: -54%;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  p {
+    font-family: bookFont;
+    letter-spacing: 2.5px;
+    color: #ebe1d8;
+    font-size: 27px;
+  }
+
+  h4 {
+    font-family: futuraBold;
+    letter-spacing: 2.5px;
+    color: #ebe1d8;
+    font-size: 27px;
+    margin-top: 2rem;
+  }
+
+  .options {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    flex-direction: column;
+  }
+
+  button {
+    border: solid #98d5f4;
+    border-radius: 50%;
+    color: #98d5f4;
+    background-color: transparent;
+    padding: 50px 90px;
+    font-size: 24px;
+    font-family: bookFont;
+    transition: ease-in 0.2s;
+  }
+
+  .option2 {
+    padding: 50px 90px;
+    margin-top: 2rem;
+  }
+
+  button:hover {
+    color: black;
+    background-color: #98d5f4;
+    cursor: pointer;
+  }
+}
+
+.safari {
+  button {
+    padding: 30px 70px;
+  }
+
+  .option2 {
+    padding: 20px 70px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .QuestionEight {
+    margin-top: 2rem !important;
+    left: -21% !important;
+
+    p {
+      font-size: 17px !important;
+      margin-top: -30rem;
+    }
+
+    h4 {
+      font-size: 19px !important;
+    }
+
+    .options {
+      margin-top: 3rem !important;
+    }
+
+    .option2 {
+      margin-top: 5rem !important;
+    }
+
+    button {
+      padding: 40px 55px !important;
+      font-size: 19px !important;
+    }
+  }
+}
+
+.safari {
+  .QuestionNine {
+    left: -12%;
+
+    p {
+      font-size: 25px;
+    }
+
+    button {
+      padding: 40px 75px;
+      font-size: 22px;
+    }
+
+    .option2 {
+      padding: 72px 75px;
+    }
+  }
+}
+
+.QuestionNine {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  .textContainer {
+    transform: translateX(-35%);
+  }
+
+  p {
+    font-family: bookFont;
+    letter-spacing: 2.5px;
+    color: #ebe1d8;
+    font-size: 27px;
+  }
+
+  h4 {
+    font-family: futuraBold;
+    letter-spacing: 2.5px;
+    color: #ebe1d8;
+    font-size: 27px;
+    margin-top: 2rem;
+  }
+
+  .options {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+  }
+
+  button {
+    border: solid #98d5f4;
+    border-radius: 50%;
+    color: #98d5f4;
+    background-color: transparent;
+    padding: 50px 90px;
+    font-size: 24px;
+    font-family: bookFont;
+    transition: ease-in 0.2s;
+  }
+
+  .option2 {
+    padding: 80px 90px;
+    margin-left: 2rem;
+  }
+
+  button:hover {
+    color: black;
+    background-color: #98d5f4;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1370px) {
+  .QuestionNine {
+    .textContainer {
+      transform: translateX(-27%);
+    }
+  }
+}
+
+@media (min-width: 1401px) and (max-width: 1450px) {
+  .QuestionNine {
+    .textContainer {
+        transform:translateX(-28%);
+    }
+  }
+}
+
+@media (min-width: 900px) and (max-width: 980px) {
+  .QuestionNine {
+    .textContainer {
+      transform: translate(-23%, -12%);
+    }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 850px) {
+  .QuestionNine {
+    
+    left: 0% !important;
+    align-items: start;
+    
+    .textContainer{
+      transform: translateX(-12%);
+    }
+
+    p {
+      font-size: 17px !important;
+    }
+
+    h4 {
+      font-size: 19px !important;
+    }
+
+    .options {
+      margin-top: 2rem !important;
+      flex-direction: column;
+    }
+
+    .option2 {
+      margin-top: 2rem !important;
+      padding: 50px 55px !important;
+    }
+
+    button {
+      padding: 40px 55px !important;
+      font-size: 19px !important;
+    }
+  }
+
+  .safari .QuestionNine {
+    width: 100vh;
+
+    .textContainer {
+      width: 50%;
+      margin-left: 14%;
+      margin-top: 13em;
+    }
+  }
+}
+
+@media (min-height: 900px) and (max-height: 925px) {
+  .QuestionNine {
+    left: 0%;
+  }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="121.474" height="45.325" viewBox="0 0 121.474 45.325">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_107" data-name="Rectangle 107" width="121.474" height="45.325" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_254" data-name="Group 254" transform="translate(0 0)">
+    <g id="Group_253" data-name="Group 253">
+      <g id="Group_252" data-name="Group 252" clip-path="url(#clip-path)">
+        <path id="Path_381" data-name="Path 381" d="M110.732,44.314H10.743a10.1,10.1,0,0,1-10.1-10.1V11.109a10.1,10.1,0,0,1,10.1-10.1h99.989a10.1,10.1,0,0,1,10.1,10.1V34.214a10.1,10.1,0,0,1-10.1,10.1" fill="#ebe1d8"/>
+        <path id="Path_382" data-name="Path 382" d="M117.618,45.325H3.857C1.73,45.325,0,42.606,0,39.265V6.06C0,2.718,1.73,0,3.857,0H117.618c2.127,0,3.857,2.718,3.857,6.06v33.2c0,3.341-1.73,6.06-3.857,6.06M3.857,2.02c-1.418,0-2.571,1.812-2.571,4.04v33.2c0,2.228,1.153,4.04,2.571,4.04H117.618c1.418,0,2.571-1.812,2.571-4.04V6.06c0-2.228-1.153-4.04-2.571-4.04Z" fill="#0d0b21"/>
+      </g>
+    </g>
+    <text id="Oh_no_" data-name="Oh no! " transform="translate(13.838 32.639)" fill="#1d1c1f" font-size="27" font-family="Helvetica"><tspan x="0" y="0">Oh no! </tspan></text>
+  </g>
+</svg>

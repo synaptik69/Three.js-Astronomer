@@ -1,0 +1,124 @@
+.scroll_down {
+  position: absolute;
+  top: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+
+  p {
+    margin-top: 0.3rem;
+    color: rgb(151, 151, 151);
+  }
+
+  svg {
+    width: 30px;
+    height: 30px;
+    fill: rgb(151, 151, 151);
+  }
+}
+
+.timeline_welcome_con {
+  width: 100vw;
+  height: 5vh;
+  position: fixed;
+  bottom: 45vh;
+  left: -50vw;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .safari {
+    .timeline_welcome_con {
+      bottom: 55vh !important;
+    }
+  }
+  .scroll_down {
+    p {
+      position: absolute;
+      top: 95%;
+    }
+    svg {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.blink {
+  animation: scrollDownBlink 2.5s linear infinite alternate 2.5s;
+}
+
+.timeline_con {
+  width: 60%;
+  height: 2px;
+  top: 94vh;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 0;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+
+  &::before,
+  &::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    position: absolute;
+    border: solid #ffffff;
+    background-color: rgb(0, 0, 0);
+  }
+
+  &::after {
+    left: 0px;
+  }
+
+  &::before {
+    right: -13px;
+  }
+
+  .timeline_seek {
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 1;
+    border: solid #ffffff;
+    background-color: #6598b7;
+  }
+}
+
+@keyframes scrollDownBlink {
+  0% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.volume {
+  .welcome_timeline_vol_img {
+    position: absolute;
+    right: 0;
+    top: 91.5vh;
+    width: 40px;
+    z-index: 1000000!important;
+    margin-right: 5%;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+  }
+}

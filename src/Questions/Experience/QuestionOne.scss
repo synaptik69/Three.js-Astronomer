@@ -1,0 +1,54 @@
+.pixar_text {
+  width: 400px;
+  font-family: futuraBold;
+  letter-spacing: 2.5px;
+  font-size: 18px;
+}
+
+.banner_text {
+  width: 114px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  letter-spacing: 2.5px;
+  color: black;
+  font-family: futura;
+  background-color: #EBE1D8;
+  border: 1px solid black;
+  // opacity: 0;
+}
+
+.oh_no {
+  width: 70px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: black;
+  font-family: bookFont;
+  border: 1px solid black;
+  background-color: #EBE1D8;
+  // opacity: 0;
+}
+
+.second_animation_text_con {
+  text-align: center;
+  font-size: 24px;
+
+  p {
+    font-family: bookFont;
+  }
+
+  b {
+    font-family: futuraBold;
+  }
+}
+
+.fourth_question_text_two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 50px;
+  }
+}

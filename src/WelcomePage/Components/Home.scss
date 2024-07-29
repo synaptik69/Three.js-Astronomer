@@ -1,0 +1,512 @@
+.session_one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: -56vh !important;
+  z-index: 1 !important;
+  .logo {
+    height: 180px;
+    margin-top: 10%;
+    margin-bottom: 50px;
+  }
+
+  .logo_star {
+    width: 60px;
+    height: 60px;
+    margin-top: -10px;
+    margin-bottom: -5px;
+  }
+
+  h1 {
+    // position: absolute;
+    // top: 50%;
+    font-size: 36px;
+    font-family: "futuraBold";
+    color: #ebe1d8;
+  }
+
+  p {
+    // top: 73%;
+    // position: absolute;
+    margin-bottom: 5rem;
+    text-align: center;
+    width: 60%;
+    font-family: "bookFont";
+    font-weight: 100;
+    color: #ebe1d8;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .session_one {
+    .logo {
+      width: 80%;
+      height: 10em;
+      margin-top: 10rem;
+    }
+
+    h1 {
+      font-size: 25px;
+      margin-top: 35px;
+    }
+
+    p {
+      width: 90%;
+      font-size: 14px;
+    }
+  }
+}
+
+.session_two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+
+  h1 {
+    text-align: center;
+    width: 50%;
+    font-size: 27px;
+    font-family: "bookFont";
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .session_two {
+    h1 {
+      font-size: 20px;
+      width: 85%;
+      margin-top: 1.5rem;
+    }
+  }
+}
+
+.session_three {
+  display: flex;
+  position: relative;
+  opacity: 1;
+
+  p {
+    text-align: center;
+    width: 35%;
+    font-family: "bookFont";
+    font-size: 27px;
+    margin-top: 16%;
+    margin-left: 15%;
+    line-height: 1.2;
+    span {
+      font-family: "futuraBold";
+      font-style: normal;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .session_three {
+    p {
+      font-size: 15px;
+      width: 50%;
+      margin-top: 55%;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) and (min-height: 800px) {
+  .session_three {
+    p {
+      margin-top: 20rem;
+      margin-left: 10rem;
+    }
+  }
+}
+
+.session_four {
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+
+  h1 {
+    text-align: center;
+    width: 35%;
+    font-size: 32px;
+    margin-top: 18%;
+    font-family: "futuraBold";
+    color: #ebe1d8;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .session_four {
+    h1 {
+      width: 50%;
+      font-size: 20px;
+      margin-top: 12em;
+    }
+  }
+}
+
+.text {
+  opacity: 0;
+  position: absolute;
+}
+
+// Submit form CSS starting
+
+#register_form {
+  margin: 20px auto;
+  width: 450px;
+  max-width: 90%;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+  #register_form {
+    padding: 15px;
+  }
+  .register_form_content {
+    input[type="text"],
+    input[type="email"],
+    input[type="number"] {
+      font-size: 14px;
+    }
+  }
+  .errMsg {
+    font-size: 15px !important;
+  }
+}
+
+.register_form_content {
+  .checkbox_svg {
+    height: 20px;
+  }
+  input[type="checkbox"] {
+    font: inherit;
+    color: currentColor;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #ede3ce;
+    border-radius: 50%;
+    background: transparent;
+    background-color: transparent;
+    appearance: none;
+  }
+  input[type="checkbox"]:hover {
+    cursor: pointer;
+  }
+  .terms {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    label {
+      font-size: 20px;
+      display: block;
+      margin-left: 2px;
+      color: #f1b09b;
+
+      a {
+        color: #f7ccbd;
+      }
+    }
+    label:hover {
+      cursor: pointer;
+    }
+  }
+
+  .errMsg {
+    font-size: 20px;
+    width: 98%;
+    margin-left: auto;
+    img {
+      width: 15px;
+      margin-right: 1rem;
+    }
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-weight: normal;
+    border: none;
+    outline: none;
+    border: 1px solid #ede3ce;
+    background-color: transparent;
+    font-size: 20px;
+    color: #ede3ce;
+    // font-size: 27px;
+    border-radius: 100px;
+    -moz-appearance: textfield;
+  }
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+
+  input::-webkit-input-placeholder {
+    color: #ede3ce;
+    font-weight: normal;
+    font-family: bookFont;
+    padding-left: 17px;
+  }
+  .inactive-btn {
+    opacity: 50%;
+    cursor: none !important;
+  }
+  .inactive-btn:hover {
+    transform: scale(1) !important  ;
+  }
+  .submit-button {
+    background-color: transparent;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    margin-top: 40px;
+    transition: all 0.5s ease-in-out;
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 99;
+      transition: all 0.5s ease-in-out;
+      width: 200px;
+    }
+
+    span {
+      z-index: 999;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 24px;
+      font-weight: normal;
+      color: #1d1c1f !important;
+      z-index: 1000;
+    }
+    .lottieText {
+      position: absolute;
+      top: 70%;
+      left: 42%;
+      margin-top: -28px;
+      font-size: 24px;
+      font-weight: normal;
+      color: #1d1c1f !important;
+      z-index: 1000;
+    }
+    button {
+      position: absolute;
+      top: 50%;
+      left: 23%;
+      margin-top: -60px;
+      font-size: 24px;
+      font-weight: normal;
+      color: #1d1c1f;
+      background-color: #ffffff;
+      border-radius: 50%;
+      border: 0px;
+      padding: 20px 30px;
+      animation: ease-in-out 3s;
+    }
+    // button:hover {
+    //   cursor: pointer;
+    //   animation: flow 5s infinite ease-in-out;
+    // }
+    // button:hover:nth-child(2) {
+    //   filter: blur(10);
+    // }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #register_form {
+    margin: 10px auto;
+    width: 90%;
+  }
+
+  .register_form_content {
+    .form-group {
+      margin-bottom: 5px;
+    }
+    .terms {
+      label {
+        font-size: 15px;
+        width: 90%;
+        margin-left: 0.5rem;
+      }
+    }
+
+    .submit-button {
+      button {
+        font-size: 20px;
+        left: 20%;
+      }
+
+      .lottieText {
+        font-size: 20px;
+        left: 48%;
+        top: 49%;
+      }
+    }
+  }
+}
+
+.welcome_loader {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(40 40 40 / 60%);
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: ease-in-out 2s;
+
+  .GlitchBtn,
+  .GlitchBtn:after {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 13em;
+    height: 76px;
+    font-weight: 500;
+    line-height: 78px;
+    z-index: 10000 !important;
+    font-size: 20px;
+    background: linear-gradient(45deg, transparent 5%, rgb(242, 99, 78) 5%);
+    border: 0;
+    color: #fff;
+    letter-spacing: 3px;
+    cursor: pointer;
+    box-shadow: 6px 0px 0px #00e6f6;
+    outline: transparent;
+    position: absolute;
+    top: 65%;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .GlitchBtn:after {
+    --slice-0: inset(50% 50% 50% 50%);
+    --slice-1: inset(80% -6px 0 0);
+    --slice-2: inset(50% -6px 30% 0);
+    --slice-3: inset(10% -6px 85% 0);
+    --slice-4: inset(40% -6px 43% 0);
+    --slice-5: inset(80% -6px 5% 0);
+
+    content: "ALTERNATE TEXT";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      45deg,
+      transparent 3%,
+      #00e6f6 3%,
+      #00e6f6 5%,
+      #ff013c 5%
+    );
+    text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
+    clip-path: var(--slice-0);
+  }
+
+  .GlitchBtn:hover:after {
+    animation: 1s glitch;
+    animation-timing-function: steps(2, end);
+  }
+
+  @keyframes glitch {
+    0% {
+      clip-path: var(--slice-1);
+      transform: translate(-20px, -10px);
+    }
+    10% {
+      clip-path: var(--slice-3);
+      transform: translate(10px, 10px);
+    }
+    20% {
+      clip-path: var(--slice-1);
+      transform: translate(-10px, 10px);
+    }
+    30% {
+      clip-path: var(--slice-3);
+      transform: translate(0px, 5px);
+    }
+    40% {
+      clip-path: var(--slice-2);
+      transform: translate(-5px, 0px);
+    }
+    50% {
+      clip-path: var(--slice-3);
+      transform: translate(5px, 0px);
+    }
+    60% {
+      clip-path: var(--slice-4);
+      transform: translate(5px, 10px);
+    }
+    70% {
+      clip-path: var(--slice-2);
+      transform: translate(-10px, 10px);
+    }
+    80% {
+      clip-path: var(--slice-5);
+      transform: translate(20px, -10px);
+    }
+    90% {
+      clip-path: var(--slice-1);
+      transform: translate(-10px, 0px);
+    }
+    100% {
+      clip-path: var(--slice-1);
+      transform: translate(0);
+    }
+  }
+}
+
+.safari {
+  .GlitchBtn {
+    padding: 0;
+  }
+}
+
+.welcome_loaded {
+  background-color: rgb(40, 40, 40);
+  animation: makeTransperant 1.5s linear 0.5s forwards;
+}
+
+@keyframes makeTransperant {
+  from {
+    background-color: rgb(40, 40, 40);
+  }
+  to {
+    background-color: rgb(40 40 40 / 60%);
+  }
+}
+
+@media (min-width: 300px) and (max-width: 850px) {
+  .GlitchBtn {
+    font-size: 15px !important;
+  }
+}

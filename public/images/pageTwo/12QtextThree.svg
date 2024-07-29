@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1079.626" height="182.527" viewBox="0 0 1079.626 182.527">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_522" data-name="Rectangle 522" width="1079.626" height="143.333" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_523" data-name="Rectangle 523" width="773.017" height="29.52" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_621" data-name="Group 621">
+    <g id="Group_620" data-name="Group 620" clip-path="url(#clip-path)">
+      <text id="Congratulations_" data-name="Congratulations!" transform="translate(0 111.667)" fill="#ebe1d8" font-size="130.224" font-family="Helvetica"><tspan x="0" y="0">Congratulations!</tspan></text>
+    </g>
+  </g>
+  <g id="Group_623" data-name="Group 623" transform="translate(131.01 153.008)">
+    <g id="Group_622" data-name="Group 622" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+      <text id="You_ve_successfully_navigated_through_diverse_cosmic_scenarios" data-name="You&apos;ve successfully navigated through diverse cosmic scenarios" transform="translate(0 23.153)" fill="#ede3ce" font-size="27" font-family="Helvetica"><tspan x="0" y="0" letter-spacing="-0.109em">Y</tspan><tspan y="0">ou&apos;ve successfully navigated through diverse cosmic scenarios</tspan></text>
+    </g>
+  </g>
+</svg>

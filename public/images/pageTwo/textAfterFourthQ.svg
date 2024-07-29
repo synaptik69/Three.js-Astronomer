@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500.633" height="95.457" viewBox="0 0 500.633 95.457">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_243" data-name="Rectangle 243" width="500.633" height="95.457" transform="translate(0 0.001)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_333" data-name="Group 333" transform="translate(0 0)">
+    <path id="Path_2110" data-name="Path 2110" d="M262.649,11.324,259.624.571,256.6,11.324l-12.985,3.468L256.6,18.26l3.025,10.753,3.025-10.753,12.985-3.468Z" fill="#ebe1d8"/>
+    <g id="Group_332" data-name="Group 332">
+      <g id="Group_331" data-name="Group 331" clip-path="url(#clip-path)">
+        <path id="Path_2111" data-name="Path 2111" d="M276.2,14.792a.57.57,0,0,1-.424.551l-12.67,3.385-2.938,10.44a.57.57,0,0,1-1.1,0l-2.937-10.44-12.671-3.385a.57.57,0,0,1,0-1.1l12.671-3.384L259.075.416a.57.57,0,0,1,1.1,0l2.938,10.441,12.67,3.384a.571.571,0,0,1,.424.551M259.624,26.907l2.476-8.8a.569.569,0,0,1,.4-.4l10.921-2.917L262.5,11.876a.571.571,0,0,1-.4-.4l-2.476-8.8-2.476,8.8a.571.571,0,0,1-.4.4l-10.921,2.916,10.921,2.917a.569.569,0,0,1,.4.4Z" fill="#0d0b21"/>
+        <path id="Path_2112" data-name="Path 2112" d="M240.236,31.356l-2.057-7.312-2.057,7.312-8.829,2.358,8.829,2.358,2.057,7.312,2.057-7.312,8.829-2.358Z" fill="#ebe1d8"/>
+        <path id="Path_2113" data-name="Path 2113" d="M249.636,33.714a.57.57,0,0,1-.424.551L240.7,36.539l-1.969,7a.57.57,0,0,1-1.1,0l-1.969-7-8.515-2.274a.57.57,0,0,1,0-1.1l8.515-2.274,1.969-7a.57.57,0,0,1,1.1,0l1.969,7,8.515,2.274a.571.571,0,0,1,.424.551m-11.457,7.563,1.508-5.36a.57.57,0,0,1,.4-.4l6.765-1.807-6.765-1.807a.57.57,0,0,1-.4-.4l-1.508-5.36-1.508,5.36a.57.57,0,0,1-.4.4L229.5,33.714l6.765,1.807a.57.57,0,0,1,.4.4Z" fill="#0d0b21"/>
+        <text id="They_didn_t_make_you_Captain_for_nothing_" data-name="They didn’t make you Captain for nothing!" transform="translate(0 89.09)" fill="#ede3ce" font-size="27" font-family="Helvetica"><tspan x="0" y="0">They did</tspan><tspan y="0" letter-spacing="-0.054em">n</tspan><tspan y="0">’t make you Captain for nothing!</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

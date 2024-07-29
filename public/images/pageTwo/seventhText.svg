@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="276.262" height="200.968" viewBox="0 0 276.262 200.968">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_143" data-name="Rectangle 143" width="276.262" height="200.968" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_311" data-name="Group 311" transform="translate(-620 -255)">
+    <g id="Group_310" data-name="Group 310" transform="translate(620 255)">
+      <path id="Path_1877" data-name="Path 1877" d="M135.724,22.157l8.26-7.52-10.969,2.11L124.1,6.69l2.714,13.163-8.26,7.521,10.969-2.111,8.916,10.057Z" fill="#ebe1d8"/>
+      <g id="Group_309" data-name="Group 309">
+        <g id="Group_308" data-name="Group 308" clip-path="url(#clip-path)">
+          <path id="Path_1878" data-name="Path 1878" d="M138.694,35.83a.57.57,0,0,1-.682-.132l-8.7-9.813-10.651,2.049a.571.571,0,0,1-.492-.983l8.02-7.3L123.541,6.8a.571.571,0,0,1,.986-.494l8.7,9.814,10.65-2.049a.571.571,0,0,1,.492.982l-8.02,7.3L139,35.2a.572.572,0,0,1-.3.626m-18.257-9.4,8.978-1.728a.571.571,0,0,1,.535.182l7.5,8.459-2.283-11.071a.571.571,0,0,1,.174-.537L142.1,15.58l-8.978,1.727a.571.571,0,0,1-.535-.182l-7.5-8.459,2.282,11.072a.57.57,0,0,1-.174.537Z" fill="#0d0b21"/>
+          <path id="Path_1879" data-name="Path 1879" d="M107.776,11.088l5.616-5.113L105.934,7.41,99.872.571l1.845,8.951L96.1,14.635l7.458-1.435,6.062,6.838Z" fill="#ebe1d8"/>
+          <path id="Path_1880" data-name="Path 1880" d="M109.877,20.548a.572.572,0,0,1-.683-.132l-5.846-6.6-7.14,1.374a.571.571,0,0,1-.492-.983l5.376-4.894L99.312.686A.571.571,0,0,1,100.3.192l5.847,6.6,7.139-1.373a.571.571,0,0,1,.492.982l-5.376,4.9,1.78,8.631a.571.571,0,0,1-.3.626M97.984,13.691l5.467-1.052a.571.571,0,0,1,.535.182l4.645,5.24L107.217,11.2a.571.571,0,0,1,.175-.538l4.117-3.748L106.041,7.97a.574.574,0,0,1-.535-.183l-4.645-5.239,1.415,6.858a.573.573,0,0,1-.175.537Z" fill="#0d0b21"/>
+          <!-- <text id="Seems_like_you_re_the" data-name="Seems like you’re the" transform="translate(0 91.273)" fill="#061c3f" font-size="27" font-family="Helvetica"><tspan x="0" y="0">Seems like </tspan><tspan y="0" letter-spacing="0.001em">y</tspan><tspan y="0">ou’re the</tspan></text>
+          <text id="epitome_of_efficiency." data-name="epitome of efficiency." transform="translate(2.106 119.272)" fill="#061c3f" font-size="27" font-family="Helvetica"><tspan x="0" y="0">epitome of</tspan><tspan y="0" letter-spacing="0.001em"> </tspan><tspan y="0">efficienc</tspan><tspan y="0" letter-spacing="-0.086em">y</tspan><tspan y="0">.</tspan></text> -->
+          <path id="Path_1881" data-name="Path 1881" d="M232.463,170.959l-181.9,28.767a5.273,5.273,0,0,1-6.032-4.385l-5.117-32.356a5.274,5.274,0,0,1,4.385-6.032l181.9-28.767a5.273,5.273,0,0,1,6.032,4.385l5.117,32.356a5.273,5.273,0,0,1-4.385,6.032" fill="#ebe1d8"/>
+          <path id="Path_1882" data-name="Path 1882" d="M233.866,171.76,49.475,200.92c-2.623.415-5.181-1.933-5.7-5.233l-5.187-32.8c-.522-3.3,1.187-6.323,3.81-6.738l184.391-29.161c2.623-.414,5.181,1.933,5.7,5.234l5.187,32.8c.522,3.3-1.187,6.323-3.81,6.738M42.711,158.147c-1.749.277-2.888,2.291-2.54,4.492l5.187,32.8c.348,2.2,2.053,3.766,3.8,3.489l184.39-29.16c1.749-.277,2.888-2.292,2.54-4.492l-5.186-32.8c-.348-2.2-2.054-3.765-3.8-3.488Z" fill="#0d0b21"/>
+        </g>
+      </g>
+      <text id="Nice_one_" data-name="Nice one!" transform="translate(88.07 180.115) rotate(-8.987)" fill="#061c3f" font-size="27" font-family="Helvetica"><tspan x="0" y="0">Nice one!</tspan></text>
+    </g>
+  </g>
+</svg>
